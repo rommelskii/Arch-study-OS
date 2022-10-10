@@ -26,7 +26,7 @@ makepkg -si
 
 cd
 
-pamac build notion-app cider teams prospect-mail-bin 
+pamac build notion-app cider teams prospect-mail-bin visual-studio-code-bin
 
 echo "Done"
 
