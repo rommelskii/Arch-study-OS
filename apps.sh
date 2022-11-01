@@ -28,5 +28,7 @@ cd
 
 pamac build notion-app cider teams prospect-mail-bin visual-studio-code-bin
 
+clear
+
 echo "Done"
 
