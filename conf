@@ -1,0 +1,15 @@
+#!/bin/bash
+if [[ ${*} = "" ]] || [[ ${*} != "openbox" ]] || [[ ${*} != "picom" ]] 
+then
+	echo "loser"
+fi 
+
+if [[ ${*} = "openbox" ]] 
+then
+	sudo vim /etc/xdg/openbox
+fi
+
+if [[ ${*} = "picom" ]] 
+then
+	sudo vim /etc/xdg/picom.conf
+fi
